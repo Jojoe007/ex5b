@@ -46,7 +46,8 @@
 					alert(chk);
 				} else {
 					var temp = convert(t, u);
-					alert("Temperature is " + temp.temp + " in " + temp.unit);
+					// alert("Temperature is " + temp.temp + " in " + temp.unit);
+					document.getElementById('result').innerHTML = "Temperature is " + temp.temp + " in " + temp.unit;
 				}
 			});
 		});
